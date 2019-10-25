@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eventos - Onclick</title>
+    <meta charset="UTF-8" />
+    <script type="text/javascript">
+      function ola() {
+        alert("Meu primeiro evento!!");
+      }
+      /*//blog.dankicode.com/eventos-em-javascript/
+	 Onclink:
+	 Esse é o tipo de evento mais usado que ocorre quando
+	 um usuario clica no botão esquerdo do mouse. Você
+	 pode colocar sua validação, aviso etc... neste tipo 
+	 
+	 de evento.
+	 */
+    </script>
+  </head>
+
+  <body>
+    <p>Clique no botão a seguir para executar o evento</p>
+
+    <h3>Botão fora de um formulário</h3>
+    <button onclick="ola()" value="onclick">onclick</button>
+
+    <br />
+    <br />
+
+    <form>
+      <input type="button" onclick="ola()" value="onclick" />
+    </form>
+  </body>
+</html>
